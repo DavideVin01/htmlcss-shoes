@@ -1,9 +1,75 @@
+/* Generics */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Utilities */
 body{
     font-family: 'Rubik Mono One', sans-serif;
+    /* overflow: hidden; */
+}
+
+.full-page{
+    height: 100vh;
+    width: 100%;
+}
+
+/* Colors */
+.full-page #page-red{
+    background-color: #FF0000;
+}
+
+.full-page #page-green{
+    background-color: #008000;
+}
+
+.full-page #page-yellow{
+    background-color: #FFFF00;
+}
+
+.text-yellow{
+    color: #FFFF00;
+}
+
+.text-green{
+    color: #008000;
+}
+
+
+/* Shoes */
+.shoes-basse{
+    background-image: url(img/01.png);
+}
+
+.shoes-medie{
+    background-image: url(img/02.png);
+}
+
+.shoes-alte{
+    background-image: url(img/03.png);
+}
+
+/* Text */
+
+/* Main */
+.full-page{
+    position: relative;
+    
+}
+
+.page-red-img{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 48px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%,50%);
 }
